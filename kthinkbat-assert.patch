@@ -1,0 +1,12 @@
+diff -urN kthinkbat-0.1.5.org/src/kthinkbat.cpp kthinkbat-0.1.5/src/kthinkbat.cpp
+--- kthinkbat-0.1.5.org/src/kthinkbat.cpp	2006-02-03 16:14:34.000000000 +0100
++++ kthinkbat-0.1.5/src/kthinkbat.cpp	2006-04-10 19:04:22.257910000 +0200
+@@ -18,6 +18,8 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <assert.h>
++
+ // Qt
+ #include <qpainter.h>
+ #include <qfile.h>
