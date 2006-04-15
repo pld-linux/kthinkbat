@@ -1,4 +1,5 @@
 Summary:	A laptop battery monitor for the KDE
+Summary(pl):	Monitor baterii laptopa dla KDE
 Name:		kthinkbat
 Version:	0.1.5
 Release:	1
@@ -19,7 +20,7 @@ A laptop battery monitor for the KDE. Additionally, KThinkBat shows
 the current power consumption of the laptop, brings support for a
 second battery and its layout is highly customizable.
 
-Features of KThinBat:
+Features of KThinkBat:
 - display of current battery fuel in percent and visual as gauge
 - display of the current online/offline state
 - display of the current power consumption in W (or A on Asus Laptops)
@@ -27,8 +28,25 @@ Features of KThinBat:
   provided by the tp_smapi driver (automatically detected)
 - batteries can be display separatelly or in an combined/summarized
   view
-- complete customizable Layout including, positions, sizes, color,
+- complete customizable layout including positions, sizes, color,
   fonts, values.
+
+%description -l pl
+Monitor baterii laptopa dla KDE. Oprócz tego KThinkBat pokazuje
+aktualny pobór energii przez laptopa, dodaje obs³ugê drugiej baterii,
+a jego wygl±d jest w du¿ej mierze konfigurowalny.
+
+Mo¿liwo¶ci KThinkBata:
+- wy¶wietlanie aktualnego stanu na³adowania baterii w procentach i
+  wizualnie jako licznika
+- wy¶wietlanie aktualnego stanu online/offline
+- wy¶wietlanie aktualnego poboru energii w watach (lub amperach na
+  laptopach Asusa)
+- opcjonalnie u¿ywa BIOS-u SMAPI ThinkPadów poprzez interfejs sysfs
+  udostêpniony przez sterownik tp_smapi (automatycznie wykrywany)
+- baterie mog± byæ wy¶wietlane oddzielnie lub ³±cznie
+- w pe³ni konfigurowalny wygl±d, w³±cznie z po³o¿eniem, rozmiarami,
+  kolorami, fontami, warto¶ciami.
 
 %prep
 %setup -q
