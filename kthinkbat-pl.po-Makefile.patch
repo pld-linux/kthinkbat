@@ -1,0 +1,55 @@
+diff -burN kthinkbat-0.1.7.orig/po/Makefile.in kthinkbat-0.1.7/po/Makefile.in
+--- kthinkbat-0.1.7.orig/po/Makefile.in	2006-07-26 16:55:07.528316500 +0200
++++ kthinkbat-0.1.7/po/Makefile.in	2006-07-26 16:57:21.708702250 +0200
+@@ -294,8 +294,8 @@
+ xdg_menudir = @xdg_menudir@
+ #>- POFILES = AUTO
+ #>+ 2
+-POFILES = de.po es.po
+-GMOFILES = de.gmo es.gmo
++POFILES = de.po es.po pl.po
++GMOFILES = de.gmo es.gmo pl.gmo
+ #>- all: all-am
+ #>+ 1
+ all: all-nls docs-am  all-am
+@@ -491,21 +491,24 @@
+ #>+ 2
+ KDE_DIST=Makefile.in de.gmo de.po kthinkbat.pot es.po es.gmo Makefile.am 
+ 
+-#>+ 7
++#>+ 10
+ de.gmo: de.po
+ 	rm -f de.gmo; $(GMSGFMT) -o de.gmo $(srcdir)/de.po
+ 	test ! -f de.gmo || touch de.gmo
+ es.gmo: es.po
+ 	rm -f es.gmo; $(GMSGFMT) -o es.gmo $(srcdir)/es.po
+ 	test ! -f es.gmo || touch es.gmo
++pl.gmo: pl.po
++	rm -f pl.gmo; $(GMSGFMT) -o pl.gmo $(srcdir)/pl.po
++	test ! -f pl.gmo || touch pl.gmo
+ 
+ #>+ 3
+ clean-nls:
+-	-rm -f  de.gmo es.gmo
++	-rm -f  de.gmo es.gmo pl.gmo
+ 
+ #>+ 10
+ install-nls:
+-	@for base in de es ; do \
++	@for base in de es pl; do \
+ 	  echo $(INSTALL_DATA) $$base.gmo $(DESTDIR)$(kde_locale)/$$base/LC_MESSAGES/$(PACKAGE).mo ;\
+ 	  $(mkinstalldirs) $(DESTDIR)$(kde_locale)/$$base/LC_MESSAGES ; \
+ 	  if test -f $$base.gmo; then $(INSTALL_DATA) $$base.gmo $(DESTDIR)$(kde_locale)/$$base/LC_MESSAGES/$(PACKAGE).mo ;\
+@@ -514,10 +517,11 @@
+ 	done
+ 
+ 
+-#>+ 4
++#>+ 5
+ uninstall-nls:
+ 	rm -f $(DESTDIR)$(kde_locale)/de/LC_MESSAGES/$(PACKAGE).mo
+ 	rm -f $(DESTDIR)$(kde_locale)/es/LC_MESSAGES/$(PACKAGE).mo
++	rm -f $(DESTDIR)$(kde_locale)/pl/LC_MESSAGES/$(PACKAGE).mo
+ 
+ #>+ 2
+ all-nls: $(GMOFILES)

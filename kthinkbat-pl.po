@@ -1,0 +1,169 @@
+# translation of de.po to Deutsch
+# This file is put in the public domain.
+#
+# Adam Golebiowski <adamg@pld-linux.org>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-03 15:47+0100\n"
+"PO-Revision-Date: 2006-01-30 17:57+0100\n"
+"Last-Translator: Adam Golebiowski <adamg@pld-linux.org>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Adam Gołębiowski"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "adamg@pld-linux.org"
+
+#: kthinkbat.cpp:63
+msgid "KThinkBat %1"
+msgstr "KThinkBat %1"
+
+#: kthinkbat.cpp:64
+msgid "&About %1"
+msgstr "O &programie %1"
+
+#: kthinkbat.cpp:65
+msgid "&Configure %1..."
+msgstr "&Konfiguruj %1"
+
+#. i18n: file ./prefs.ui line 16
+#: kthinkbat.cpp:98 rc.cpp:3
+#, no-c-format
+msgid "KThinkBat Preferences"
+msgstr "Opcje KThinkBat"
+
+#: kthinkbat.cpp:117
+msgid "A KDE panel applet to display the current laptop battery status."
+msgstr "Aplet panelu KDE wyświetlający status baterii w laptopie."
+
+#: kthinkbat.cpp:134
+msgid ""
+"A KDE panel applet to display the current laptop battery status.\n"
+"\n"
+"There is no real help box at the moment"
+msgstr ""
+"Aplet panelu KDE wyświetlający status baterii w laptopie.\n"
+"\n"
+"Jak na razie aplet ten nie posiada pomocy"
+
+#. i18n: file ./prefs.ui line 27
+#: rc.cpp:6
+#, no-c-format
+msgid "Battery Settings"
+msgstr "Ustawienia baterii"
+
+#. i18n: file ./prefs.ui line 38
+#: rc.cpp:9
+#, no-c-format
+msgid "Battery Critical Fill"
+msgstr "Krytyczny poziom baterii"
+
+#. i18n: file ./prefs.ui line 68
+#: rc.cpp:12
+#, no-c-format
+msgid "Battery Update Interval (in milliseconds)"
+msgstr "Interwał aktualizacji stanu baterii (w milisekundach)"
+
+#. i18n: file ./prefs.ui line 107
+#: rc.cpp:15
+#, no-c-format
+msgid "Po&wer Meter Position below of Battery Gauge"
+msgstr "Po&zycja miernika mocy poniżej wykresu baterii"
+
+#. i18n: file ./prefs.ui line 110
+#: rc.cpp:18
+#, no-c-format
+msgid "Alt+W"
+msgstr "Alt+Z"
+
+#. i18n: file ./prefs.ui line 118
+#: rc.cpp:21
+#, no-c-format
+msgid "Summari&ze all Batteries"
+msgstr "Su&muj wszystkie baterie"
+
+#. i18n: file ./prefs.ui line 121
+#: rc.cpp:24
+#, no-c-format
+msgid "Alt+Z"
+msgstr "Alt+M"
+
+#. i18n: file ./prefs.ui line 129
+#: rc.cpp:27
+#, no-c-format
+msgid "Show Power Meter"
+msgstr "Pokaż miernik mocy"
+
+#. i18n: file ./prefs.ui line 142
+#: rc.cpp:31
+#, no-c-format
+msgid "Color"
+msgstr "Kolor"
+
+#. i18n: file ./prefs.ui line 187
+#: rc.cpp:34
+#, no-c-format
+msgid "Gauge Fuel Color"
+msgstr "Kolor poziomu baterii"
+
+#. i18n: file ./prefs.ui line 195
+#: rc.cpp:37
+#, no-c-format
+msgid "Gauge Critical Fuell Color"
+msgstr "Kolor krytycznego poziomu baterii"
+
+#. i18n: file ./prefs.ui line 203
+#: rc.cpp:40
+#, no-c-format
+msgid "Gauge Background Color"
+msgstr "Kolor tła poziomu baterii"
+
+#. i18n: file ./prefs.ui line 228
+#: rc.cpp:43
+#, no-c-format
+msgid "Power Meter Text Color"
+msgstr "Kolor tekstu miernika mocy"
+
+#. i18n: file ./prefs.ui line 322
+#: rc.cpp:50
+#, no-c-format
+msgid "Size"
+msgstr "Rozmiar"
+
+#. i18n: file ./prefs.ui line 333
+#: rc.cpp:53
+#, no-c-format
+msgid "Gauge Size:"
+msgstr "Rozmiar wykresu poziomu baterii:"
+
+#. i18n: file ./prefs.ui line 404
+#: rc.cpp:62
+#, no-c-format
+msgid "Gauge Dot Size:"
+msgstr "Rozmiar punktu wykresu:"
+
+#. i18n: file ./prefs.ui line 469
+#: rc.cpp:74
+#, no-c-format
+msgid "Gauge Font (Percentage Value)"
+msgstr "Wielkość czcionki wykresu (procentowo):"
+
+#. i18n: file ./prefs.ui line 477
+#: rc.cpp:77
+#, no-c-format
+msgid "Power Meter Font"
+msgstr "Czcionka miernika mocy"
+# vim: set encoding=utf-8 termencoding=iso-8859-2:
