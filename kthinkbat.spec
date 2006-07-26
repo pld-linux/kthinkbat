@@ -88,4 +88,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/kde3/*.so
 %{_datadir}/apps/kicker/applets/*.desktop
 %{_datadir}/config.kcfg/*.kcfg
-%{_datadir}/icons/hicolor/*/*/*
+%{_iconsdir}/hicolor/*/*/*
