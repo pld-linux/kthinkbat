@@ -2,7 +2,7 @@ Summary:	A laptop battery monitor for the KDE
 Summary(pl):	Monitor baterii laptopa dla KDE
 Name:		kthinkbat
 Version:	0.2.3
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://lepetitfou.dyndns.org/download/kthinkbat/src/kthinkbat-0.2.x/%{name}-%{version}.tar.bz2
@@ -15,6 +15,8 @@ BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define         _noautoreq      libtool(.*)
 
 %description
 A laptop battery monitor for the KDE. Additionally, KThinkBat shows
