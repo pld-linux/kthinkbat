@@ -1,5 +1,5 @@
 Summary:	A laptop battery monitor for the KDE
-Summary(pl):	Monitor baterii laptopa dla KDE
+Summary(pl.UTF-8):   Monitor baterii laptopa dla KDE
 Name:		kthinkbat
 Version:	0.2.3
 Release:	5
@@ -35,22 +35,22 @@ Features of KThinkBat:
 - complete customizable layout including positions, sizes, color,
   fonts, values.
 
-%description -l pl
-Monitor baterii laptopa dla KDE. OprÛcz tego KThinkBat pokazuje
-aktualny pobÛr energii przez laptopa, dodaje obs≥ugÍ drugiej baterii,
-a jego wygl±d jest w duøej mierze konfigurowalny.
+%description -l pl.UTF-8
+Monitor baterii laptopa dla KDE. Opr√≥cz tego KThinkBat pokazuje
+aktualny pob√≥r energii przez laptopa, dodaje obs≈Çugƒô drugiej baterii,
+a jego wyglƒÖd jest w du≈ºej mierze konfigurowalny.
 
-Moøliwo∂ci KThinkBata:
-- wy∂wietlanie aktualnego stanu na≥adowania baterii w procentach i
+Mo≈ºliwo≈õci KThinkBata:
+- wy≈õwietlanie aktualnego stanu na≈Çadowania baterii w procentach i
   wizualnie jako licznika
-- wy∂wietlanie aktualnego stanu online/offline
-- wy∂wietlanie aktualnego poboru energii w watach (lub amperach na
+- wy≈õwietlanie aktualnego stanu online/offline
+- wy≈õwietlanie aktualnego poboru energii w watach (lub amperach na
   laptopach Asusa)
-- opcjonalnie uøywa BIOS-u SMAPI ThinkPadÛw poprzez interfejs sysfs
-  udostÍpniony przez sterownik tp_smapi (automatycznie wykrywany)
-- baterie mog± byÊ wy∂wietlane oddzielnie lub ≥±cznie
-- w pe≥ni konfigurowalny wygl±d, w≥±cznie z po≥oøeniem, rozmiarami,
-  kolorami, fontami, warto∂ciami.
+- opcjonalnie u≈ºywa BIOS-u SMAPI ThinkPad√≥w poprzez interfejs sysfs
+  udostƒôpniony przez sterownik tp_smapi (automatycznie wykrywany)
+- baterie mogƒÖ byƒá wy≈õwietlane oddzielnie lub ≈ÇƒÖcznie
+- w pe≈Çni konfigurowalny wyglƒÖd, w≈ÇƒÖcznie z po≈Ço≈ºeniem, rozmiarami,
+  kolorami, fontami, warto≈õciami.
 
 %prep
 %setup -q
