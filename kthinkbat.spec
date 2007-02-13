@@ -1,5 +1,5 @@
 Summary:	A laptop battery monitor for the KDE
-Summary(pl.UTF-8):   Monitor baterii laptopa dla KDE
+Summary(pl.UTF-8):	Monitor baterii laptopa dla KDE
 Name:		kthinkbat
 Version:	0.2.3
 Release:	5
