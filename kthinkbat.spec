@@ -59,7 +59,6 @@ Możliwości KThinkBata:
 %build
 %{__make} -f admin/Makefile.common cvs
 %configure \
-	--libdir=%{_libdir} \
 %if "%{_lib}" == "lib64"
 	--enable-libsuffix=64 \
 %endif
@@ -71,16 +70,13 @@ Możliwości KThinkBata:
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	kde_htmldir=%{_datadir}/doc/kde/HTML \
+	kde_htmldir=%{_kdedocdir} \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %find_lang %{name} --with-kde
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
