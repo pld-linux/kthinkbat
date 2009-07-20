@@ -9,7 +9,7 @@ Source0:	http://lepetitfou.dyndns.org/download/kthinkbat/src/kthinkbat-0.2.x/%{n
 # Source0-md5:	aaf3a1e84b833a500b42a99dc5c0fd84
 Patch0:		%{name}-assert.patch
 Patch1:		kde-ac260-lt.patch
-URL:		https://lepetitfou.dyndns.org/projects/kthinkbat/
+URL:		http://www.thinkwiki.org/wiki/KThinkBat
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
